@@ -7,6 +7,8 @@
     --cor: 221deg;
     --claro: hsl(var(--cor) 75% 45%);
     --medio: hsl(var(--cor) 74% 33%);
+    --texto: white;
+    --texto2: hsl(var(--cor) 100% 90%)
 }
 
 body {
@@ -63,7 +65,7 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     background-color: var(--medio);
-    color: rgb(204, 204, 255);
+    color: var(--texto2); /*rgb(204, 204, 255) cor antiga*/
 }
 
 #cards .card div{
