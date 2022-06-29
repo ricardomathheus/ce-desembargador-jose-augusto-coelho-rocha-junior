@@ -3,6 +3,13 @@
     margin: 0px;
 }
 
+@media (max-width: 170px) {
+    * {
+        word-wrap: break-word;
+    }
+}
+
+
 :root{
     --cor: 221deg;
     --claro: hsl(var(--cor) 75% 45%);
@@ -39,6 +46,8 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+
 
 #cards {
     margin-top: 1rem;
