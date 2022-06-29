@@ -25,7 +25,7 @@ body {
 }
 
 #apresentação img{
-    margin: 1.5rem;
+    margin: 1.5rem 0px ;
     width: 100%;
     max-width: 250px;
 }
@@ -41,7 +41,7 @@ body {
     margin-top: 1rem;
 }
 
-#cards h2{
+#cards > h2{
     margin-bottom: 1rem;
     text-align: center;
     color: white;
@@ -57,7 +57,7 @@ body {
 
 #cards .card{
     min-height: 100px;
-    width: 100%;
+    width: calc(100% - 5rem);
     max-width: 500px;
     padding: 1rem;
     border-radius: 1rem;
@@ -81,5 +81,10 @@ body {
 footer {
     margin-top: 1rem;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.082);
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.664);
 }
