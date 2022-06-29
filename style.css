@@ -4,8 +4,9 @@
 }
 
 :root{
-    --claro: hsl(221deg 75% 45%);
-    --medio: hsl(221deg 74% 33%);
+    --cor: 221deg;
+    --claro: hsl(var(--cor) 75% 45%);
+    --medio: hsl(var(--cor) 74% 33%);
 }
 
 body {
